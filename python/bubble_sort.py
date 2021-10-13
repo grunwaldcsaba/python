@@ -13,6 +13,6 @@ def swap(nums, index1, index2):
     nums[index1] = nums[index2]
     nums[index2] = temp
 
-print(nums)
+print("Before sorting: " + nums)
 bubble_sort(nums)
-print(nums)
+print("After sorting: " + nums)
